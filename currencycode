@@ -1,0 +1,10 @@
+print('This program will convert NZD to AUD and vice versa')
+convert_amount = input('Enter the amount you wish you convert ')
+currency_type = input('NZD (nzd) or AUD? (aud)? ')
+if currency_type == 'nzd':
+    converted_currency = int(convert_amount) * 0.95
+    print(f'this is {converted_currency} AUD')
+
+if currency_type == 'aud':
+    converted_currency = int(convert_amount) / 0.95
+    print(f'this is {converted_currency} nzd')
