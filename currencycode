@@ -1,4 +1,4 @@
-print('This program will convert NZD to AUD and vice versa')
+""" This program will convert NZD to AUD and vice versa """
 convert_amount = input('Enter the amount you wish you convert ')
 currency_type = input('NZD (nzd) or AUD? (aud)? ')
 if currency_type == 'nzd':
